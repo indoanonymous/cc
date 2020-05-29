@@ -12,7 +12,7 @@ $ apt install git
 
 $ pkg install python
 
-$ git clone https://github.com/TSMaitry/VirusX.git
+$ git clone https://github.com/indoanonymous/cc.git
 
 $ cd VirusX
 
