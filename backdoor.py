@@ -66,7 +66,7 @@ echo "     (   /              )  / \    \  \/"
 sleep 0.03
 echo "     /  /              /  /   \    )"
 sleep 0.03
-echo " ---/  /   Paladin ---/  /-----)  /-----"
+echo " ---/  / Anonymous ---/  /-----)  /-----"
 sleep 0.03
 echo "  _/__/   Project!  _/__/     /  /"
 sleep 0.03
@@ -74,7 +74,7 @@ echo " /__/              /__/     _/__/"
 sleep 0.03
 echo "                           /__/"
 echo " ======================================="
-echo " ==         Paladin Project           =="
+echo " ==        Anonymous Project          =="
 echo " ======================================="
 }
 load(){
@@ -95,14 +95,14 @@ load
 clear
 hackbae
 echo "============================================"                                            
-echo "==    Selamat datang di Paladin Project   =="
+echo "==   Welcome in Anonymous.co.id Project   =="
 echo "============================================"   
 echo " Mulai Paladin Project?"
 echo "y/n?"
 read start
 if [ $start = "y" ]; then
     clear
-    echo "Memulai Paladin Project"
+    echo "Memulai Anonymous Project"
     echo "Loading.."
     load
     clear
@@ -119,7 +119,7 @@ if [ $start = "y" ]; then
     gnome-terminal -x bash -c "$HOME/paladin_project/trap.sh; exec bash"
 #paladin auto exploit
     echo
-    echo "Start Paladin Auto exploit?"
+    echo "Start Anonymous Auto exploit?"
     echo "y/n?"
     read paladin_auto
     if [ $paladin_auto = "y" ]; then
@@ -176,5 +176,5 @@ if [ $start = "y" ]; then
         echo "Kesalahan"
     fi
 else
-    echo "Terimakasih sudah menggunakan Paladin Project"
+    echo "Terimakasih sudah menggunakan Anonymous Project"
 fi
